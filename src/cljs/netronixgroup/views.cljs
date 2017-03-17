@@ -56,7 +56,7 @@
        :component-should-update #(false)
 
        :component-will-mount
-                                #(println "component-will-mount")
+                                #()
        :display-name            "map-component"
        :reagent-render          (fn [x y z]
                                   [:div#map-container {:key   :map-container

@@ -30,7 +30,6 @@
                      :fn-open  (fn [e]
                                  (re-frame/dispatch-sync [:connection/status :connected]))
                      :fn-error (fn [e]
-                                 (println 'error )
                                  (re-frame/dispatch-sync [:connection/status (if (= 0 (.-readyState (js-this)))
                                                                                :reconnecting
                                                                                :disconnected)]))
