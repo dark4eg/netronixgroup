@@ -8,7 +8,8 @@
                  [re-frisk "0.3.2"]
                  [cljsjs/d3 "4.3.0-3"]
                  [cljsjs/leaflet "0.7.7-8"]
-                 [cljsjs/react-leaflet "0.12.3-4"]]
+                 [cljsjs/react-leaflet "0.12.3-4"]
+                 [com.andrewmcveigh/cljs-time "0.4.0"]]
 
   :plugins [[lein-cljsbuild "1.1.4"]
             [lein-less "1.7.5"]]
